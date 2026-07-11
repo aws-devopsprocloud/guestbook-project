@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/aws-devopsprocloud/guestbook-project.git
     targetRevision: HEAD 
-    path: guestbook-project 
+    path: .
   destination: 
     server: https://kubernetes.default.svc
     namespace: guestbook 
